@@ -1,0 +1,8 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Phone Desk</title><link rel="stylesheet" href="/assets/style.css"></head><body>
+<header><span class="logo">▥</span><strong>Phone Desk</strong><span class="local">● &nbsp; Local workspace</span></header>
+<main><aside><h2>Devices</h2><div id="devices"></div><details><summary>USB setup</summary><p id="info"></p><p>Connect and trust the iPhone over USB. Allow Camera access for the Mac process running Phone Desk.</p></details></aside>
+<section class="workspace"><div class="title"><div><small>DEVICE CONTROL</small><h1 id="name">Phone preview</h1></div><span id="live"></span></div>
+<div class="stage"><img id="preview" alt="Selected phone screen" draggable="false" hidden><p id="unavailable">Waiting for preview…</p></div>
+<footer><span id="hint">Tap or drag on the phone</span><button id="home" disabled>Home</button><button id="ask" aria-expanded="false">✦ &nbsp; Ask agent</button></footer>
+<p id="error" role="alert"></p><section id="drawer" hidden><div class="drawerhead"><strong>Phone agent</strong><span id="status"></span><button id="stop">Stop</button><button id="close" aria-label="Close chat">×</button></div><div id="history" aria-live="polite"></div><div id="examples"></div><form><input id="msg" placeholder="Tell this phone what to do…" aria-label="Message to phone agent" required maxlength="3000"><button>Send ↑</button></form><small id="privacy"></small></section>
+</section></main><script src="/assets/app.js"></script></body></html>
